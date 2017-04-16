@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab2;
+package com.acme.utils;
 
 /**
  *
@@ -12,7 +12,9 @@ package lab2;
 public class MyDate {
 
     // Variables
-    int day, year, month;
+    public int day;
+	public int year;
+	public int month;
 
     // Initialization block
     {

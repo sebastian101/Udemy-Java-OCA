@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab2;
+package com.acme.testing;
+
+import com.acme.utils.MyDate;
 
 /**
  *

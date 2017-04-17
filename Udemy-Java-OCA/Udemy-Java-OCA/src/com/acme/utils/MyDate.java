@@ -38,6 +38,17 @@ public class MyDate {
     public String toString() {
         return month + "/" + day + "/" + year;
     }
+    
+    // Static method to list all the leap years
+    public static void leapYears()
+    {
+    	for (int currentYear = 1752; currentYear <= 2020; currentYear = currentYear + 4){
+    		if((currentYear % 100 != 0) || (currentYear % 400 == 0)){
+    			System.out.println(currentYear + " is a leap year");
+    		}
+    	}
+    	
+    }
 
     public void setDate(int month, int day, int year) {
         this.month = month;

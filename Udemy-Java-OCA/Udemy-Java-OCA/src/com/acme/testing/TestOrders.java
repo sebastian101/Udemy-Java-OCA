@@ -25,5 +25,11 @@ public class TestOrders {
 		Order.computeTaxOn(3000.00);
 		anvil.computeTax();
 		balloons.computeTax();
+		
+		System.out.println("-----------lab 6------------");
+		anvil.jobsize();
+		balloons.jobsize();
+		System.out.println("The total bill for: " + anvil + " is " + anvil.computeTotal());
+		System.out.println("The total bill for: " + balloons + " is " + balloons.computeTotal());
 	}
 }
